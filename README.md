@@ -18,3 +18,8 @@ Funciones principales
 - Galería dinámica con JavaScript.
 - Formulario de presupuesto con validación y cálculo automático.
 - Mapa dinámico con ruta automática desde la ubicación del usuario hasta la empresa.
+
+GitHub Pages
+
+-https://github.com/peplol/Trabajo-Javascript.git
+-https://peplol.github.io/Trabajo-Javascript/
