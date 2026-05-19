@@ -21,5 +21,5 @@ Funciones principales
 
 GitHub Pages
 
--https://github.com/peplol/Trabajo-Javascript.git
--https://peplol.github.io/Trabajo-Javascript/
+- https://github.com/peplol/Trabajo-Javascript.git
+- https://peplol.github.io/Trabajo-Javascript/
