@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#d8e8f0"/>
+  <rect x="90" y="80" width="620" height="340" rx="18" fill="#ffffff" stroke="#22577a" stroke-width="8"/>
+  <rect x="130" y="125" width="540" height="55" fill="#22577a"/>
+  <rect x="130" y="215" width="220" height="120" fill="#f4a261"/>
+  <rect x="385" y="215" width="285" height="25" fill="#cccccc"/>
+  <rect x="385" y="260" width="250" height="25" fill="#cccccc"/>
+  <rect x="385" y="305" width="200" height="25" fill="#cccccc"/>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial" font-size="38" fill="#22577a">Proyecto 5</text>
+</svg>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Web - Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h2>Du Web</h2>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a class="activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor contacto">
+        <section>
+            <h1>Contacto</h1>
+            <p><b>Empresa:</b> Du Web</p>
+            <p><b>Dirección:</b> Calle Mayor 10, Madrid</p>
+            <p><b>Teléfono:</b> 910 000 000</p>
+            <p><b>Email:</b> info@duweb.com</p>
+            <p class="nota">La ruta se calcula automáticamente desde tu ubicación al abrir esta página.</p>
+        </section>
+
+        <section>
+            <h2>Mapa</h2>
+            <div id="mapa"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram" width="32" height="32"></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook" width="32" height="32"></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="32" height="32"></a>
+        </div>
+        <p>Calle Mayor 10, Madrid - Aviso legal</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>

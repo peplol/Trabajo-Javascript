@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Web - Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h2>Du Web</h2>
+            <ul>
+                <li><a class="activo" href="index.html">Inicio</a></li>
+                <li><a href="views/galeria.html">Galería</a></li>
+                <li><a href="views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada">
+            <h1>Diseño web sencillo</h1>
+            <p>Proyecto de ejemplo para el trabajo final de JavaScript.</p>
+            <a class="boton" href="views/presupuesto.html">Pedir presupuesto</a>
+        </section>
+
+        <section class="contenedor">
+            <h2>Quiénes somos</h2>
+            <p>Du Web es una pequeña empresa dedicada a crear páginas web para negocios locales y personas que necesitan una presencia sencilla en internet.</p>
+        </section>
+
+        <div class="contenedor servicios">
+            <article>
+                <h3>Páginas web</h3>
+                <p>Realización de webs con HTML, CSS y JavaScript.</p>
+            </article>
+            <article>
+                <h3>Formularios</h3>
+                <p>Creación de formularios con validación básica de datos.</p>
+            </article>
+            <article>
+                <h3>Mantenimiento</h3>
+                <p>Cambios sencillos de textos, fotos y apartados de la página.</p>
+            </article>
+        </div>
+
+        <section class="contenedor">
+            <h2>Noticias</h2>
+            <p>Estas noticias se cargan desde un archivo JSON usando JavaScript.</p>
+            <div id="noticias" class="servicios"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt="Instagram" width="32" height="32"></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt="Facebook" width="32" height="32"></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn" width="32" height="32"></a>
+        </div>
+        <p>Calle Mayor 10, Madrid - Aviso legal</p>
+    </footer>
+
+    <script src="js/noticias.js"></script>
+</body>
+</html>
