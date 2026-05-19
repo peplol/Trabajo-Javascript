@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Web - Presupuesto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h2>Du Web</h2>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a class="activo" href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <h1>Presupuesto</h1>
+        <form id="formulario" action="#" method="post">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+
+                <label>Nombre:
+                    <input type="text" id="nombre" name="nombre" maxlength="15">
+                    <span id="errorNombre" class="error"></span>
+                </label>
+
+                <label>Apellidos:
+                    <input type="text" id="apellidos" name="apellidos" maxlength="40">
+                    <span id="errorApellidos" class="error"></span>
+                </label>
+
+                <label>Teléfono:
+                    <input type="text" id="telefono" name="telefono" maxlength="9">
+                    <span id="errorTelefono" class="error"></span>
+                </label>
+
+                <label>Correo electrónico:
+                    <input type="email" id="email" name="email">
+                    <span id="errorEmail" class="error"></span>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos del presupuesto</legend>
+
+                <label>Producto:
+                    <select id="producto" name="producto">
+                        <option value="350">Web básica - 350 €</option>
+                        <option value="550">Web con varias secciones - 550 €</option>
+                        <option value="750">Web con formulario y galería - 750 €</option>
+                    </select>
+                </label>
+
+                <label>Plazo de entrega en días:
+                    <input type="number" id="plazo" name="plazo" min="1" value="15">
+                </label>
+                <p class="nota">Si el plazo es de 20 días o más se aplica un pequeño descuento.</p>
+
+                <p>Extras:</p>
+                <label><input type="checkbox" class="extra" name="extras" value="80"> Logo sencillo (+80 €)</label>
+                <label><input type="checkbox" class="extra" name="extras" value="120"> Textos para la web (+120 €)</label>
+                <label><input type="checkbox" class="extra" name="extras" value="150"> Mantenimiento inicial (+150 €)</label>
+
+                <label>Presupuesto final:
+                    <input type="text" id="total" name="total" readonly>
+                </label>
+            </fieldset>
+
+            <label><input type="checkbox" id="privacidad" name="privacidad"> Acepto las condiciones de privacidad</label>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+            <p id="mensaje"></p>
+        </form>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram" width="32" height="32"></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="../assets/icons/facebook.svg" alt="Facebook" width="32" height="32"></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="32" height="32"></a>
+        </div>
+        <p>Calle Mayor 10, Madrid - Aviso legal</p>
+    </footer>
+
+    <script src="../js/presupuesto.js"></script>
+</body>
+</html>
